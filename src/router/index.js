@@ -10,44 +10,44 @@ import Chat from "@/views/Chat.vue";
 const routes = [
   {
     path: "/",
-    component: () => Home,
+    component: Home,
     meta: { title: "Your AI Code Pilot | Codexa" },
   },
   {
     path: "/features",
-    component: () => Features,
+    component: Features,
     meta: { title: "Features | Codexa" },
   },
   {
     path: "/pricing",
-    component: () => Pricing,
+    component: Pricing,
     meta: { title: "Pricing | Codexa" },
   },
   {
     path: "/faqs",
-    component: () => Faqs,
+    component: Faqs,
     meta: { title: "FAQs | Codexa" },
   },
   {
     path: "/login",
-    component: () => LogIn,
+    component: LogIn,
     meta: { title: "Log In | Codexa" },
   },
   {
     path: "/signup",
-    component: () => SignUp,
+    component: SignUp,
     meta: { title: "Sign Up | Codexa" },
   },
   {
     path: "/chat",
-    component: () => Chat,
+    component: Chat,
     meta: { title: "Chat | Codexa" },
   },
 ];
 
 const router = createRouter({
   history: createWebHistory('/codexa/'),
-  routes,
+  routes: routes,
 });
 
 router.afterEach((to) => {
