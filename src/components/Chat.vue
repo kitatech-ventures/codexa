@@ -6,15 +6,15 @@
         o3-mini-high
       </button>
       <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">GPT-3.5</a></li>
-        <li><a class="dropdown-item" href="#">GPT-4o</a></li>
-        <li><a class="dropdown-item" href="#">GPT-4.5</a></li>
-        <li><a class="dropdown-item" href="#">o1</a></li>
-        <li><a class="dropdown-item" href="#">o3-mini</a></li>
-        <li><a class="dropdown-item" href="#">Claude 3.5 Sonnet</a></li>
-        <li><a class="dropdown-item" href="#">Claude 3.7 Sonnet</a></li>
-        <li><a class="dropdown-item" href="#">DeepSeek Coder</a></li>
-        <li><a class="dropdown-item" href="#">DeepSeek Coder V2</a></li>
+        <li><router-link class="dropdown-item" to="#">GPT-3.5</router-link></li>
+        <li><router-link class="dropdown-item" to="#">GPT-4o</router-link></li>
+        <li><router-link class="dropdown-item" to="#">GPT-4.5</router-link></li>
+        <li><router-link class="dropdown-item" to="#">o1</router-link></li>
+        <li><router-link class="dropdown-item" to="#">o3-mini</router-link></li>
+        <li><router-link class="dropdown-item" to="#">Claude 3.5 Sonnet</router-link></li>
+        <li><router-link class="dropdown-item" to="#">Claude 3.7 Sonnet</router-link></li>
+        <li><router-link class="dropdown-item" to="#">DeepSeek Coder</router-link></li>
+        <li><router-link class="dropdown-item" to="#">DeepSeek Coder V2</router-link></li>
       </ul>
     </div>
     <div class="d-flex justify-content-end mb-4">
@@ -25,7 +25,7 @@
       </div>
     </div>
     <div class="mb-4">
-      <p>Sure! Here's a simple JavaScript function to get the current date in a readable format like April 10, 2025:</p>
+      <p>Sure! Here's router-link simple JavaScript function to get the current date in router-link readable format like April 10, 2025:</p>
       <hr class="hr my-4">
       <h6 class="mb-3">✅ Basic Function</h6>
       <div class="card bg-dark mb-4">

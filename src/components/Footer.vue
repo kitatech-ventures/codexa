@@ -2,9 +2,9 @@
   <footer class="py-5 mb-5 mt-auto border-top">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5">
       <div class="col mb-3">
-        <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+        <router-link to="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
           <h5 class="mb-0 fw-semibold text-primary">Codexa</h5>
-        </a>
+        </router-link>
         <p class="text-muted">&copy; {{ new Date().getFullYear() }} Aisy Iskandar 👨🏻‍💻</p>
         <p class="text-muted">MMC3113 - User Experience Design</p>
 
@@ -21,10 +21,12 @@
       <div class="col mb-3">
         <h5>Section</h5>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="/" class="nav-link p-0 text-muted">Home</a></li>
-          <li class="nav-item mb-2"><a href="/features" class="nav-link p-0 text-muted">Features</a></li>
-          <li class="nav-item mb-2"><a href="/pricing" class="nav-link p-0 text-muted">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="/faqs" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><router-link to="/" class="nav-link p-0 text-muted">Home</router-link></li>
+          <li class="nav-item mb-2"><router-link to="/features" class="nav-link p-0 text-muted">Features</router-link>
+          </li>
+          <li class="nav-item mb-2"><router-link to="/pricing" class="nav-link p-0 text-muted">Pricing</router-link>
+          </li>
+          <li class="nav-item mb-2"><router-link to="/faqs" class="nav-link p-0 text-muted">FAQs</router-link></li>
         </ul>
       </div>
 

@@ -6,7 +6,8 @@
       code generation to debugging and learning, Codexa brings the power of cutting-edge AI models like GPT-4o, Claude,
       and DeepSeek into one seamless experience. Whether you're a solo coder, a student, or a full-stack team, Codexa
       helps you build smarter, faster, and better — all from right here in Malaysia 🚀</p>
-    <a href="/login" class="btn btn-primary rounded-5">Start Now <i class="bi bi-arrow-up-right"></i></a>
+    <router-link to="/login" class="btn btn-primary rounded-5">Start Now <i
+        class="bi bi-arrow-up-right"></i></router-link>
   </div>
   <div class="my-5 py-5">
     <div class="text-center">
@@ -43,7 +44,7 @@
           DeepSeek to supercharge your development workflow. Whether you're debugging, learning, or shipping production
           code — <strong>Codexa</strong> helps you do it faster, cleaner, and with confidence.
         </p>
-        <a href="/login" class="btn btn-primary rounded-5">Start Now <i class="bi bi-arrow-up-right"></i></a>
+        <router-link to="/login" class="btn btn-primary rounded-5">Start Now <i class="bi bi-arrow-up-right"></i></router-link>
       </div>
       <div class="text-end d-none d-md-block">
         <img src="@/assets/images/robot.png" class="img-fluid w-70" alt="Robot">

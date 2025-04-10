@@ -22,9 +22,9 @@
             </label>
           </div>
           <!-- <button class="w-100 btn btn-lg btn-primary" type="submit">Log In</button> -->
-           <a href="/chat" class="w-100 btn btn-lg btn-primary">Log In</a>
+           <router-link to="/chat" class="w-100 btn btn-lg btn-primary">Log In</router-link>
         </form>
-        <p class="my-4">Don't have an account? <a href="/signup" class="text-decoration-none">Sign up</a> now!</p>
+        <p class="my-4">Don't have an account? <router-link to="/signup" class="text-decoration-none">Sign up</router-link> now!</p>
         <div class="row row-cols-3 g-3">
           <div class="col">
             <a href="#">

@@ -27,9 +27,9 @@
             </label>
           </div>
           <!-- <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Up</button> -->
-          <a href="/chat" class="w-100 btn btn-lg btn-primary">Sign Up</a>
+          <router-link to="/chat" class="w-100 btn btn-lg btn-primary">Sign Up</router-link>
         </form>
-        <p class="my-4">Already have an account? <a href="/login" class="text-decoration-none">Log in</a></p>
+        <p class="my-4">Already have an account? <router-link to="/login" class="text-decoration-none">Log in</router-link></p>
         <div class="row row-cols-3 g-3">
           <div class="col">
             <a href="#">
