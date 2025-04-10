@@ -1,0 +1,20 @@
+[
+  {
+    "name": "OpenAI",
+    "description": "Powerful and fast multi-modal AI by OpenAI, perfect for natural language understanding, code generation, and task automation.",
+    "models": ["GPT-3.5", "GPT-4o", "GPT-4.5", "o1", "o3-mini", "o3-mini-high"],
+    "link": "https://openai.com"
+  },
+  {
+    "name": "Claude",
+    "description": "Claude is a safety-focused assistant designed for deep reasoning, thoughtful responses, and strong coding capabilities.",
+    "models": ["Claude 3.5 Sonnet", "Claude 3.7 Sonnet", "Claude Instant"],
+    "link": "https://claude.ai"
+  },
+  {
+    "name": "DeepSeek",
+    "description": "An open-source coding-focused model built for developers. Ideal for code completion, debugging, and intelligent suggestions.",
+    "models": ["DeepSeek Coder", "DeepSeek Coder V2"],
+    "link": "https://www.deepseek.com/en"
+  }
+]

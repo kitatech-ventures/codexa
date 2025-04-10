@@ -1,0 +1,52 @@
+[
+  {
+    "icon": "🔍",
+    "title": "Unified AI Access",
+    "description": "Use multiple AI models in one platform. Switch between GPT-4o, Claude, DeepSeek, o3-mini, and more — no need to manage separate tools or subscriptions. Pick the model that fits your task best."
+  },
+  {
+    "icon": "⚡️",
+    "title": "Instant Code Generation",
+    "description": "From prompt to production-ready code in seconds. Generate clean, efficient code across Python, JavaScript, TypeScript, Java, Go, C++, and more. Codexa adapts to your prompt style and preferred structure."
+  },
+  {
+    "icon": "🧠",
+    "title": "Code Explanation & Learning",
+    "description": "Understand what your code (or someone else's) actually does. Whether you're reviewing legacy code or learning a new framework, Codexa breaks it down in plain language — line-by-line or function-by-function."
+  },
+  {
+    "icon": "🛠️",
+    "title": "Smart Debugging Assistant",
+    "description": "Find bugs before they break things. Just paste your error message or buggy function — Codexa diagnoses issues and suggests solutions fast, using AI models trained on massive open-source datasets."
+  },
+  {
+    "icon": "🔁",
+    "title": "Refactor & Optimize",
+    "description": "Clean up your code with confidence. Automatically refactor messy code, rename variables, extract functions, and improve performance while maintaining functionality. Great for teams and long-term projects."
+  },
+  {
+    "icon": "🔎",
+    "title": "Multi-Language Support",
+    "description": "Work in your favorite stack. Codexa supports 25+ programming languages and frameworks — from frontend (React, Vue) to backend (Node.js, Django, Laravel) and everything in between."
+  },
+  {
+    "icon": "🤝",
+    "title": "Team Collaboration Tools",
+    "description": "Build together, smarter. With the Team Plan, share AI chat history, code snippets, and saved prompts with your dev squad. Collaborate on the same AI threads to debug or brainstorm in real time."
+  },
+  {
+    "icon": "🧩",
+    "title": "API Access & Integrations",
+    "description": "Bring Codexa into your own tools. Use our API to power your own workflows, build browser extensions, or integrate Codexa into your CLI, IDE, or internal dev dashboards."
+  },
+  {
+    "icon": "🔒",
+    "title": "Privacy & Security First",
+    "description": "Your code stays yours. Codexa is built with privacy in mind. We never use your private data to train models. Enterprise clients get compliance-ready infrastructure (SOC2, GDPR, etc.)."
+  },
+  {
+    "icon": "🧬",
+    "title": "Always Evolving",
+    "description": "Get access to the latest AI breakthroughs. Codexa is constantly updated with the newest, most capable models as they launch — including GPT-4o, Claude 3, DeepSeek-Coder, and Mixtral."
+  }
+]
