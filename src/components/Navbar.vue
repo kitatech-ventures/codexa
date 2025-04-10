@@ -8,10 +8,26 @@
     </div>
 
     <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-      <li><router-link to="/" :class="getLinkClass('/')">Home</router-link></li>
-      <li><router-link to="/features" :class="getLinkClass('/features')">Features</router-link></li>
-      <li><router-link to="/pricing" :class="getLinkClass('/pricing')">Pricing</router-link></li>
-      <li><router-link to="/faqs" :class="getLinkClass('/faqs')">FAQs</router-link></li>
+      <li>
+        <router-link to="/" class="nav-link px-3 text-dark" active-class="link-primary fw-semibold">
+          Home
+        </router-link>
+      </li>
+      <li>
+        <router-link to="/features" class="nav-link px-3 text-dark" active-class="link-primary fw-semibold">
+          Features
+        </router-link>
+      </li>
+      <li>
+        <router-link to="/pricing" class="nav-link px-3 text-dark" active-class="link-primary fw-semibold">
+          Pricing
+        </router-link>
+      </li>
+      <li>
+        <router-link to="/faqs" class="nav-link px-3 text-dark" active-class="link-primary fw-semibold">
+          FAQs
+        </router-link>
+      </li>
     </ul>
 
     <div class="col-md-3 text-end">
@@ -19,19 +35,3 @@
     </div>
   </header>
 </template>
-
-<script setup>
-import { ref, onMounted } from 'vue'
-
-const currentPath = ref('/')
-
-onMounted(() => {
-  currentPath.value = window.location.pathname
-})
-
-const getLinkClass = (path) => {
-  return currentPath.value === path
-    ? 'nav-link px-3 text-primary fw-semibold' // active style
-    : 'nav-link px-3 link-dark' // default
-}
-</script>

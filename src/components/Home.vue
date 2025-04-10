@@ -94,7 +94,7 @@ onMounted(() => {
 })
 </script>
 
-<style scopped>
+<style scoped>
 .w-70 {
   width: 70%;
 }

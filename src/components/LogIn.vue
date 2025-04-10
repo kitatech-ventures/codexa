@@ -59,7 +59,7 @@
   </div>
 </template>
 
-<style scopped>
+<style scoped>
 .w-20 {
   width: 20%;
 }

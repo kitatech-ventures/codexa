@@ -17,7 +17,7 @@ import Navbar from '@/components/Navbar.vue'
 import Footer from '@/components/Footer.vue'
 </script>
 
-<style scopped>
+<style scoped>
 .min-vh-70 {
   min-height: 70vh;
 }
